@@ -36,7 +36,13 @@ public class SpinnerActivity extends AppCompatActivity {
         button = findViewById(R.id.btnButton);
         spinner = findViewById(R.id.spinner);
 
-        ArrayAdapter arrayAdapter = ArrayAdapter.createFromResource(this, R.array.dataToSpinnerListOperations, android.R.layout.simple_spinner_item);
+        /**
+         * Spinner cuenta con 3 componentes:
+         * @param This: Hace referencia a la clase actual
+         * @param dataToSpinnerListOperations: Array de datos, contiene una lista de datos para el Spinner
+         * @param simple_spinner_item: Estilo del Spinner, puede añadirse un nuevo en values
+         */
+        ArrayAdapter arrayAdapter = ArrayAdapter.createFromResource(this, R.array.dataToSpinnerListOperations,R.layout.styles_spinner_items);
         //Setear los datos al spinner
         spinner.setAdapter(arrayAdapter);
 
@@ -47,6 +53,10 @@ public class SpinnerActivity extends AppCompatActivity {
         });
     }//Fin onCreate
 
+    /**
+     * Calcula las diferentes operaciones de una calculadora basica
+     * @param view
+     */
     public void calcular(View view) {
         // Obtener los valores ingresados
         String valor1String = editText1.getText().toString();
@@ -62,6 +72,8 @@ public class SpinnerActivity extends AppCompatActivity {
         double valor1 = Double.parseDouble(valor1String);
         double valor2 = Double.parseDouble(valor2String);
         String seleccion = spinner.getSelectedItem().toString(); // Obtiene el ITEM que selecciono el usaurio.
+
+
         switch (seleccion) {
             case "sumar":
                 textView1.setText("SUMA: " + String.valueOf(valor1 + valor2));
@@ -82,8 +94,6 @@ public class SpinnerActivity extends AppCompatActivity {
             default:
                 Toast.makeText(this, "No se encontro esa opción", Toast.LENGTH_SHORT).show();
                 break;
-        }
-
+        }//Fin switch
     }//Fin calcular
-
 }//Fin SpinnerActivity
