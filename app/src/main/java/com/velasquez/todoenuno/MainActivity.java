@@ -25,44 +25,63 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sendToButtonSpinner(View view) {
-        Intent intent = new Intent(MainActivity.this, SpinnerActivity.class );
+        Intent intent = new Intent(MainActivity.this, SpinnerActivity.class);
         startActivity(intent);
     }//fin sendToButtonSpinner
 
-    public void sendToButtonListView(View view){
+    public void sendToButtonListView(View view) {
         Intent intent = new Intent(MainActivity.this, ListViewClass.class);
         startActivity(intent);
     }
 
-    public void sendToButtonRadioButton(View view){
+    public void sendToButtonRadioButton(View view) {
         Intent intent = new Intent(MainActivity.this, RadioGroupActivity.class);
         startActivity(intent);
     }//Fin sendToButtonRadioButton
 
-    public void sendToButtonCheckBox(View view){
+    public void sendToButtonCheckBox(View view) {
         Intent intent = new Intent(MainActivity.this, CheckBoxClass.class);
         startActivity(intent);
     }//Fin sendToButtonCheckBox
 
-    public void sendToLayouts(View view){
+    public void sendToLayouts(View view) {
         Intent intent = new Intent(MainActivity.this, Layouts.class);
         startActivity(intent);
     }//Fin sendToLayouts
 
-    public void sendToLayoutRelative(View view){
+    public void sendToLayoutRelative(View view) {
         Intent intent = new Intent(MainActivity.this, RelativeLayout.class);
         startActivity(intent);
     }//Fin sendToLayouts
 
 
-    public void sendToGripLayouts(View view){
+    public void sendToGripLayouts(View view) {
         Intent intent = new Intent(MainActivity.this, Grip_Layout.class);
         startActivity(intent);
     }//Fin sendToLayouts
 
-    public void sendToImagenButton(View view){
-        Intent intent = new Intent(MainActivity.this,ImageButtonClass.class);
+    public void sendToImagenButton(View view) {
+        Intent intent = new Intent(MainActivity.this, ImageButtonClass.class);
         startActivity(intent);
     }//Fin sendToImagenButton
+
+
+    /**
+     * Metodo que envia un dato a otra activity a travez del PUT y recibe la otra clase con Bundle
+     *
+     * @param view
+     */
+    public void sendToPutBundle(View view) {
+        String nombre = "Rodrigo";
+        String apellido = "Velasquez";
+        Intent intent = new Intent(MainActivity.this, Put_Bundle.class);
+
+        //Envio los datos a travez del Intent a la otra clase
+        intent.putExtra("nombre", nombre);
+        intent.putExtra("apellido", apellido);
+
+        startActivity(intent);
+    }//Fin sendToImagenButton
+
 
 }

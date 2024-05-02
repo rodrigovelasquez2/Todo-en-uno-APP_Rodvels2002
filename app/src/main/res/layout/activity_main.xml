@@ -106,6 +106,16 @@
         android:onClick="sendToImagenButton"
         android:text="@string/app_ImageButton"/>
 
+    <!-- Put and Bundle -->
+    <Button
+        android:id="@+id/btnPutBundle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnImageButton"
+        android:backgroundTint="@color/amarillo_verde"
+        android:onClick="sendToPutBundle"
+        android:textColor="@color/black"
+        android:text="@string/app_Put_bundle"/>
 
     <!--Footer-->
     <TextView
@@ -120,5 +130,4 @@
         android:text="@string/app_titulo_General"
         android:textColor="@color/white"
         android:textStyle="italic|bold" />
-
 </RelativeLayout>

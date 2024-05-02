@@ -21,4 +21,7 @@
     <string name="app_home">Home</string>
     <string name="app_clean_list">Clean List</string>
     <string name="app_ImageButton">Image Button</string>
+    <string name="app_Put_bundle">Put_bundle</string>
+    <string name="app_revelar">Revelar datos</string>
+
 </resources>
