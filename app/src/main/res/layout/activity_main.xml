@@ -117,6 +117,18 @@
         android:textColor="@color/black"
         android:text="@string/app_Put_bundle"/>
 
+    <!-- Web View -->
+    <Button
+        android:id="@+id/btnWebView_Main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnPutBundle"
+        android:backgroundTint="@color/lavanda"
+        android:onClick="sendToWebView"
+        android:textColor="@color/black"
+        android:text="@string/app_Web_View"/>
+
+
     <!--Footer-->
     <TextView
         android:id="@+id/Footer"

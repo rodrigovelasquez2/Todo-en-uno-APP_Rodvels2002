@@ -83,5 +83,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }//Fin sendToImagenButton
 
+    public void sendToWebView(View view){
+        Intent intent = new Intent(MainActivity.this, WebViewClass.class);
+        startActivity(intent);
+    }//Fin sendToWebView
 
-}
+
+}//Fin MainActivity
