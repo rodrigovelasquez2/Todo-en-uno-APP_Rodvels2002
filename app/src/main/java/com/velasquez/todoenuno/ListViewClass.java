@@ -45,13 +45,39 @@ public class ListViewClass extends AppCompatActivity {
 
     }//Fin onCreate
 
-    public void insertDataToListView(View view){
-        String texto = editTextListView.getText().toString();
-        miLista.add(texto);
-        editTextListView.getText().clear();
-        arrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,miLista);
-        listView.setAdapter(arrayAdapter);
+    /**
+     * Metodo que registra datos a la lista
+     *
+     * @param view
+     */
+    private Integer contador = 0;
 
+    public void insertDataToListView(View view) {
+        String texto = editTextListView.getText().toString();
+
+        //Incrementar el contador
+        incrementarContador();
+
+        //Añade a la lista datos:
+        miLista.add("ITEM N°" + contador + ":> " + texto);
+
+        // Limpia la caja de texto
+        editTextListView.getText().clear();
+
+        // Notifica al ArrayAdapter que los datos han cambiado
+        arrayAdapter = new ArrayAdapter<>(this, R.layout.styles_list_items, miLista);
+
+        // Setea los datos al ListView
+        listView.setAdapter(arrayAdapter);
     }//Fin insertDataToListView
 
+    public void incrementarContador() {
+        contador++;
+    }//Fin incrementarContador
+
+    public void clearListView(View view) {
+        contador = 0;
+        miLista.clear();
+        arrayAdapter.notifyDataSetChanged(); // Notifica al ArrayAdapter que los datos han cambiado
+    }//Fin clearListView
 }//Fin ListView

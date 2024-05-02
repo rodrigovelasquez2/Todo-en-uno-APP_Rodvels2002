@@ -19,4 +19,5 @@
     <string name="app_relative_layout">Relative Layout</string>
     <string name="app_grip_layout">Grip Layout</string>
     <string name="app_home">Home</string>
+    <string name="app_clean_list">Clean List</string>
 </resources>

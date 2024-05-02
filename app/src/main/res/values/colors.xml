@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--Colores basicos-->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="green">#27AE60</color>
@@ -37,7 +38,6 @@
     <color name="pastel_6">#ABEBC6</color> <!-- Verde pastel -->
     <color name="pastel_7">#F5CBA7</color> <!-- Melocotón pastel -->
     <color name="pastel_8">#FAD7A0</color> <!-- Naranja pastel -->
-    <!-- Agrega más colores pasteles según tus preferencias -->
 
     <!-- Colores pasteles del arcoíris -->
     <color name="pastel_red">#FFB6C1</color> <!-- Rosa pastel -->
@@ -46,7 +46,6 @@
     <color name="pastel_green">#98FB98</color> <!-- Verde pastel -->
     <color name="pastel_blue">#ADD8E6</color> <!-- Azul pastel -->
     <color name="pastel_purple">#E6E6FA</color> <!-- Lila pastel -->
-    <!-- Agrega más colores pasteles del arcoíris según tus preferencias -->
 
 
     <!-- Colores en escala de grises -->
@@ -54,8 +53,7 @@
     <color name="gray">#888888</color> <!-- Gris -->
     <color name="light_gray">#CCCCCC</color> <!-- Gris claro -->
     <color name="blue_steel">#0c1821</color> <!-- Gris claro -->
-    <!-- Puedes agregar más tonos de grises según tus preferencias -->
-    
+
 
     <!---Colore de la aplicacion-->
     <color name="verde_militar">#344e41</color>
