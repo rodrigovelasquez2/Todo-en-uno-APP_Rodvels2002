@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckBoxClass">
+
+    <TextView
+        android:id="@+id/textViewTitle_CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_title_ChecBox"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber1_Checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:inputType="number"
+
+        android:layout_marginEnd="30dp"
+        android:hint="@string/app_number1"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewTitle_CheckBox" />
+
+    <EditText
+        android:id="@+id/editTextNumber2_Checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:inputType="number"
+
+        android:layout_marginEnd="30dp"
+        android:hint="@string/app_number2"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextNumber1_Checkbox" />
+
+    <EditText
+        android:id="@+id/editTextOpeaciones_CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/app_title_Operaciones"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextNumber2_Checkbox" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Suma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/app_sumar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextOpeaciones_CheckBox" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Resta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="@string/app_restar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/checkBox_Suma" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox_Division"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="@string/app_division"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/checkBox_Resta" />
+
+    <Button
+        android:id="@+id/btnCheckboxButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green"
+        android:text="@string/app_msg_button"
+        android:onClick="calcularResultado_CheckBox"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="50dp"
+
+        app:layout_constraintTop_toBottomOf="@id/checkBox_Division"
+        />
+
+    <TextView
+        android:id="@+id/textViewResultado_Checkbox"
+        android:layout_width="411dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/btnCheckboxButton"
+        tools:layout_editor_absoluteX="0dp"
+        android:text="@string/app_resultado"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:gravity="center"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dataToSpinnerListOperations">
+        <item>sumar</item>
+        <item>restar</item>
+        <item>dividir</item>
+        <item>multiplicar</item>
+    </string-array>
+</resources>

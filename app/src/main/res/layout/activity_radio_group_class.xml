@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RadioGroupActivity">
+
+    <TextView
+        android:id="@+id/TituloRadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/app_RadioButtonTitlle"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtxtNumero1_rdButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="30dp"
+        android:hint="@string/app_number1"
+        android:inputType="number"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/TituloRadioButton" />
+
+    <EditText
+        android:id="@+id/edtxtNumero2_rdButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="30dp"
+        android:hint="@string/app_number2"
+        android:inputType="number"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtxtNumero1_rdButton" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtxtNumero2_rdButton">
+
+        <RadioButton
+            android:id="@+id/radioButtonSumar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_sumar" />
+
+        <RadioButton
+            android:id="@+id/radioButtonRestar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_restar" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDividir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_division" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnRadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="48dp"
+        android:onClick="calcularRadioButton"
+        android:text="@string/app_msg_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/radioGroup1" />
+
+    <TextView
+        android:id="@+id/textViewResultado_RadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnRadioButton"
+
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

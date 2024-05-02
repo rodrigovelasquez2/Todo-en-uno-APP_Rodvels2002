@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#27AE60</color>
+    <color name="gold">#F39C12</color>
+    <color name="turquoise">#5dc1b9</color>
+    <color name="sky">#03A9F4</color>
+    <color name="amarillo">#FFFF00</color>
+    <color name="rosa">#FFC0CB</color>
+    <color name="naranja">#FFA500</color>
+    <color name="verde">#008000</color>
+    <color name="azul">#0000FF</color>
+    <color name="violeta">#8A2BE2</color>
+    <color name="rojo">#FF0000</color>
+    <color name="cian">#00FFFF</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="negro">#000000</color>
+    <color name="gris">#808080</color>
+    <color name="café">#A52A2A</color>
+    <color name="amarillo_verde">#ADFF2F</color>
+    <color name="turquesa">#40E0D0</color>
+    <color name="coral">#FF7F50</color>
+    <color name="lavanda">#E6E6FA</color>
+    <color name="plata">#C0C0C0</color>
+    <color name="oliva">#808000</color>
+    <color name="salmon">#FA8072</color>
+
+
+    <!-- Colores pasteles -->
+    <color name="pastel_1">#FADBD8</color> <!-- Rosa pastel -->
+    <color name="pastel_2">#F9E79F</color> <!-- Amarillo pastel -->
+    <color name="pastel_3">#D5DBDB</color> <!-- Gris pastel -->
+    <color name="pastel_4">#D7BDE2</color> <!-- Lila pastel -->
+    <color name="pastel_5">#AED6F1</color> <!-- Azul pastel -->
+    <color name="pastel_6">#ABEBC6</color> <!-- Verde pastel -->
+    <color name="pastel_7">#F5CBA7</color> <!-- Melocotón pastel -->
+    <color name="pastel_8">#FAD7A0</color> <!-- Naranja pastel -->
+    <!-- Agrega más colores pasteles según tus preferencias -->
+
+    <!-- Colores pasteles del arcoíris -->
+    <color name="pastel_red">#FFB6C1</color> <!-- Rosa pastel -->
+    <color name="pastel_orange">#FFD700</color> <!-- Naranja pastel -->
+    <color name="pastel_yellow">#FFFFE0</color> <!-- Amarillo pastel -->
+    <color name="pastel_green">#98FB98</color> <!-- Verde pastel -->
+    <color name="pastel_blue">#ADD8E6</color> <!-- Azul pastel -->
+    <color name="pastel_purple">#E6E6FA</color> <!-- Lila pastel -->
+    <!-- Agrega más colores pasteles del arcoíris según tus preferencias -->
+
+
+    <!-- Colores en escala de grises -->
+    <color name="dark_gray">#444444</color> <!-- Gris oscuro -->
+    <color name="gray">#888888</color> <!-- Gris -->
+    <color name="light_gray">#CCCCCC</color> <!-- Gris claro -->
+    <color name="blue_steel">#0c1821</color> <!-- Gris claro -->
+    <!-- Puedes agregar más tonos de grises según tus preferencias -->
+    
+
+    <!---Colore de la aplicacion-->
+    <color name="verde_militar">#344e41</color>
+    <color name="verde_militar2">#3a5a40</color>
+    <color name="verde_militar3">#588157</color>
+    <color name="verde_militar4">#a3b18a</color>
+    <color name="verde_militar5">#dad7cd</color>
+    
+    <!--Colores que combinan en con verde militar-->
+    <color name="marroncito">#d4a373</color>
+
+
+
+</resources>

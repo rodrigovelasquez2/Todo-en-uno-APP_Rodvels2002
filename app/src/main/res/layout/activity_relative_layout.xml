@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayout">
+
+    <!--Posicionar cada componente en cada esquina-->
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_width="100sp"
+        android:layout_height="100dp"
+        android:background="@color/gray"
+        android:text="CHILD VIEW"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/gray"
+        android:text="A"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/gray"
+        android:text="B"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/gray"
+        android:text="C"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/gray"
+        android:text="D"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+
+    <!--CENTRAR COMPONENTES EN CRUZ-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/A"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_width="100dp"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:background="@color/dark_gray"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="CHILD VIEW"-->
+    <!--        android:textSize="20dp"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:textStyle="bold" />-->
+
+    <!--    <TextView-->
+    <!--        android:layout_toRightOf="@id/A"-->
+    <!--        android:id="@+id/B"-->
+    <!--        android:layout_marginStart="10dp"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_width="100dp"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:background="@color/gray"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="B"-->
+    <!--        android:textSize="30dp"-->
+    <!--        android:textStyle="bold" />-->
+
+    <!--    <TextView-->
+    <!--        android:layout_toLeftOf="@id/A"-->
+    <!--        android:layout_marginEnd="10dp"-->
+    <!--        android:id="@+id/C"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_width="100dp"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:background="@color/gray"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="C"-->
+    <!--        android:textSize="30dp"-->
+    <!--        android:textStyle="bold" />-->
+
+
+    <!--    <TextView-->
+    <!--        android:layout_below="@+id/A"-->
+    <!--        android:layout_marginEnd="10dp"-->
+    <!--        android:id="@+id/D"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_width="100dp"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:background="@color/gray"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="D"-->
+    <!--        android:textSize="30dp"-->
+    <!--        android:textStyle="bold" />-->
+
+    <!--    <TextView-->
+    <!--        android:layout_above="@+id/A"-->
+    <!--        android:layout_marginEnd="10dp"-->
+    <!--        android:id="@+id/E"-->
+    <!--        android:layout_marginBottom="10dp"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_width="100dp"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:background="@color/gray"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="D"-->
+    <!--        android:textSize="30dp"-->
+    <!--        android:textStyle="bold" />-->
+
+
+</RelativeLayout>

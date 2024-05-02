@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/verde_militar5"
+    tools:context=".MainActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="@drawable/backgroun_todo_en_uno"/>
+
+    <!--Header-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_titulo_General"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="italic|bold" />
+
+    <!--SPINNER-->
+    <Button
+        android:id="@+id/btnSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/Footer"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/marroncito"
+        android:onClick="sendToButtonSpinner"
+        android:text="SPINNER" />
+
+    <!--LIST VIEW-->
+    <Button
+        android:id="@+id/btnList_activityMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnSpinner"
+        android:backgroundTint="@color/turquoise"
+        android:onClick="sendToButtonListView"
+        android:text="@string/app_title_ListViewTitle" />
+
+    <!--RADIO BUTTONS-->
+    <Button
+        android:id="@+id/btnRadioButtonMain_activityMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnList_activityMain"
+        android:backgroundTint="@color/gold"
+        android:onClick="sendToButtonRadioButton"
+        android:text="RadioButton" />
+
+    <!--CheckBox-->
+    <Button
+        android:id="@+id/btnCheckboxButton_activityMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnRadioButtonMain_activityMain"
+        android:onClick="sendToButtonCheckBox"
+        android:text="@string/app_title_ChecBox" />
+
+    <!--Layouts-->
+    <Button
+        android:id="@+id/btnLayouts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnCheckboxButton_activityMain"
+        android:backgroundTint="@color/coral"
+        android:onClick="sendToLayouts"
+        android:text="@string/app_Layout" />
+
+    <!--RelativeLayout-->
+    <Button
+        android:id="@+id/btnRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnLayouts"
+        android:backgroundTint="@color/dark_gray"
+        android:onClick="sendToLayoutRelative"
+        android:text="@string/app_relative_layout" />
+
+    <!--RelativeLayout-->
+    <Button
+        android:id="@+id/btnGripLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnRelativeLayout"
+        android:backgroundTint="@color/salmon"
+        android:onClick="sendToGripLayouts"
+        android:text="@string/app_grip_layout" />
+    <!--Footer-->
+    <TextView
+        android:id="@+id/Footer"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="@color/verde_militar3"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="@string/app_titulo_General"
+        android:textColor="@color/white"
+        android:textStyle="italic|bold" />
+
+</RelativeLayout>
