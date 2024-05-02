@@ -95,6 +95,18 @@
         android:backgroundTint="@color/salmon"
         android:onClick="sendToGripLayouts"
         android:text="@string/app_grip_layout" />
+
+    <!-- ImageButton -->
+    <Button
+        android:id="@+id/btnImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnGripLayout"
+        android:backgroundTint="@color/verde_militar4"
+        android:onClick="sendToImagenButton"
+        android:text="@string/app_ImageButton"/>
+
+
     <!--Footer-->
     <TextView
         android:id="@+id/Footer"

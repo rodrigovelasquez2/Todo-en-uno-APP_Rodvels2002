@@ -60,4 +60,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }//Fin sendToLayouts
 
+    public void sendToImagenButton(View view){
+        Intent intent = new Intent(MainActivity.this,ImageButtonClass.class);
+        startActivity(intent);
+    }//Fin sendToImagenButton
+
 }
