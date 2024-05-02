@@ -24,13 +24,13 @@ public class ImageButtonClass extends AppCompatActivity {
         });
     }//Fin onCreate
 
-    public void settings(View view) {
+    public void imageButtonSettings(View view) {
         Toast.makeText(this, "Settins funcionando", Toast.LENGTH_SHORT).show();
     }//fin settings
-    public void home(View view) {
+    public void imageButtonHome(View view) {
         Toast.makeText(this, "Home Funcionando", Toast.LENGTH_SHORT).show();
     }//Fin home
-    public void user(View view) {
+    public void imageButtonUser(View view) {
         Toast.makeText(this, "User funcionando", Toast.LENGTH_SHORT).show();
     }//fin user
 }//Fin ImageButtonClass
