@@ -25,5 +25,6 @@
     <string name="app_Web_View">Web_View</string>
     <string name="app_revelar">Revelar datos</string>
     <string name="app_cerrar">Cerrar</string>
+    <string name="app_buscar">Buscar</string>
 
 </resources>
