@@ -9,124 +9,155 @@
     tools:context=".MainActivity">
 
     <View
+        android:id="@+id/view_header"
         android:layout_width="match_parent"
         android:layout_height="125dp"
-        android:background="@drawable/backgroun_todo_en_uno"/>
+        android:background="@drawable/backgroun_todo_en_uno" />
 
     <!--Header-->
     <TextView
+        android:id="@+id/textViewMainActivity"
         android:layout_width="match_parent"
-        android:layout_marginTop="40dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         android:gravity="center"
         android:text="@string/app_titulo_General"
         android:textColor="@color/white"
         android:textSize="30dp"
         android:textStyle="italic|bold" />
 
-    <!--SPINNER-->
-    <Button
-        android:id="@+id/btnSpinner"
+    <!--TABLA DE BOTONES-->
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_below="@+id/view_header"
         android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
         android:layout_height="wrap_content"
-        android:layout_above="@id/Footer"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="0dp"
-        android:layout_marginBottom="10dp"
-        android:backgroundTint="@color/marroncito"
-        android:onClick="sendToButtonSpinner"
-        android:text="SPINNER" />
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
 
-    <!--LIST VIEW-->
-    <Button
-        android:id="@+id/btnList_activityMain"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/btnSpinner"
-        android:backgroundTint="@color/turquoise"
-        android:onClick="sendToButtonListView"
-        android:text="@string/app_title_ListViewTitle" />
+        <!--Primer fila-->
+        <TableRow>
+            <!-- Columna 1 -->
+            <!--SPINNER-->
+            <Button
+                android:id="@+id/btnSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/Footer"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/marroncito"
+                android:onClick="sendToButtonSpinner"
+                android:text="SPINNER" />
 
-    <!--RADIO BUTTONS-->
-    <Button
-        android:id="@+id/btnRadioButtonMain_activityMain"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/btnList_activityMain"
-        android:backgroundTint="@color/gold"
-        android:onClick="sendToButtonRadioButton"
-        android:text="RadioButton" />
+            <!--LIST VIEW-->
+            <Button
+                android:id="@+id/btnList_activityMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/btnSpinner"
+                android:backgroundTint="@color/turquoise"
+                android:onClick="sendToButtonListView"
+                android:text="@string/app_title_ListViewTitle" />
 
-    <!--CheckBox-->
-    <Button
-        android:id="@+id/btnCheckboxButton_activityMain"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/btnRadioButtonMain_activityMain"
-        android:onClick="sendToButtonCheckBox"
-        android:text="@string/app_title_ChecBox" />
+            <!--RADIO BUTTONS-->
+            <Button
+                android:id="@+id/btnRadioButtonMain_activityMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/btnList_activityMain"
+                android:backgroundTint="@color/gold"
+                android:onClick="sendToButtonRadioButton"
+                android:text="RadioButton" />
 
-    <!--Layouts-->
-    <Button
-        android:id="@+id/btnLayouts"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/btnCheckboxButton_activityMain"
-        android:backgroundTint="@color/coral"
-        android:onClick="sendToLayouts"
-        android:text="@string/app_Layout" />
+        </TableRow>
 
-    <!--RelativeLayout-->
-    <Button
-        android:id="@+id/btnRelativeLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/btnLayouts"
-        android:backgroundTint="@color/dark_gray"
-        android:onClick="sendToLayoutRelative"
-        android:text="@string/app_relative_layout" />
+        <!--Segunda fila-->
+        <TableRow>
+            <!--CheckBox-->
+            <Button
+                android:id="@+id/btnCheckboxButton_activityMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/btnRadioButtonMain_activityMain"
+                android:onClick="sendToButtonCheckBox"
+                android:text="@string/app_title_ChecBox" />
 
-    <!--RelativeLayout-->
-    <Button
-        android:id="@+id/btnGripLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/btnRelativeLayout"
-        android:backgroundTint="@color/salmon"
-        android:onClick="sendToGripLayouts"
-        android:text="@string/app_grip_layout" />
+            <!--Layouts-->
+            <Button
+                android:id="@+id/btnLayouts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/btnCheckboxButton_activityMain"
+                android:backgroundTint="@color/coral"
+                android:onClick="sendToLayouts"
+                android:text="@string/app_Layout" />
 
-    <!-- ImageButton -->
-    <Button
-        android:id="@+id/btnImageButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/btnGripLayout"
-        android:backgroundTint="@color/verde_militar4"
-        android:onClick="sendToImagenButton"
-        android:text="@string/app_ImageButton"/>
+            <!--RelativeLayout-->
+            <Button
+                android:id="@+id/btnRelativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/btnLayouts"
+                android:backgroundTint="@color/dark_gray"
+                android:onClick="sendToLayoutRelative"
+                android:text="@string/app_relative_layout" />
+        </TableRow>
 
-    <!-- Put and Bundle -->
-    <Button
-        android:id="@+id/btnPutBundle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/btnImageButton"
-        android:backgroundTint="@color/amarillo_verde"
-        android:onClick="sendToPutBundle"
-        android:textColor="@color/black"
-        android:text="@string/app_Put_bundle"/>
 
-    <!-- Web View -->
-    <Button
-        android:id="@+id/btnWebView_Main"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/btnPutBundle"
-        android:backgroundTint="@color/lavanda"
-        android:onClick="sendToWebView"
-        android:textColor="@color/black"
-        android:text="@string/app_Web_View"/>
+        <!--Tercera fila-->
+
+        <TableRow>
+
+            <!-- ImageButton -->
+            <Button
+                android:id="@+id/btnImageButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/btnGripLayout"
+                android:backgroundTint="@color/verde_militar4"
+                android:onClick="sendToImagenButton"
+                android:text="@string/app_ImageButton" />
+
+            <!-- Put and Bundle -->
+            <Button
+                android:id="@+id/btnPutBundle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/btnImageButton"
+                android:backgroundTint="@color/amarillo_verde"
+                android:onClick="sendToPutBundle"
+                android:text="@string/app_Put_bundle"
+                android:textColor="@color/black" />
+
+            <!-- Web View -->
+            <Button
+                android:id="@+id/btnWebView_Main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/btnPutBundle"
+                android:backgroundTint="@color/lavanda"
+                android:onClick="sendToWebView"
+                android:text="@string/app_Web_View"
+                android:textColor="@color/black" />
+        </TableRow>
+
+
+        <!--Cuarta fila-->
+        <TableRow>
+            <!--Grip-->
+            <Button
+                android:id="@+id/btnGripLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/btnRelativeLayout"
+                android:backgroundTint="@color/salmon"
+                android:onClick="sendToGripLayouts"
+                android:text="@string/app_grip_layout" />
+        </TableRow>
+    </TableLayout>
 
 
     <!--Footer-->
