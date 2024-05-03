@@ -65,7 +65,7 @@ public class WebViewClass extends AppCompatActivity {
         String URL = editText.getText().toString().trim();
         if (!URL.isEmpty()) {
             // Construir la URL de búsqueda de Google con la consulta ingresada
-            String urlBusqueda = "https://www.google.com/search?q=" + Uri.encode(URL);
+            String urlBusqueda = "https://www.google.com/search?q=" + Uri.encode(URL); // Se agrega la consulta a Google para que busque
             // Limpiar la cache del navegador y cargar la URL en el WebView
             paginaWeb.clearCache(false);
             paginaWeb.loadUrl(urlBusqueda);
