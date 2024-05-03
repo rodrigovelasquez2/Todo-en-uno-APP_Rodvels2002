@@ -16,7 +16,7 @@
         android:theme="@style/Theme.TodoEnUno"
         tools:targetApi="31">
         <activity
-            android:name=".CardViewRecycleView"
+            android:name=".cardView.main.CardViewRecycleView"
             android:exported="false" />
         <activity
             android:name=".WebViewClass"

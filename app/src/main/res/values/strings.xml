@@ -18,6 +18,7 @@
     <string name="app_Layout">Layouts</string>
     <string name="app_relative_layout">Relative Layout</string>
     <string name="app_grip_layout">Grip Layout</string>
+    <string name="app_recycle">Recycle View</string>
     <string name="app_home">Home</string>
     <string name="app_clean_list">Clean List</string>
     <string name="app_ImageButton">Image Button</string>
@@ -26,5 +27,15 @@
     <string name="app_revelar">Revelar datos</string>
     <string name="app_cerrar">Cerrar</string>
     <string name="app_buscar">Buscar</string>
+
+    <!--CARD VIES-->
+    <string name="app_Large_Text">Large Text</string>
+    <string name="app_name_pets">Pet´s Name</string>
+    <string name="app_edad">Edad</string>
+    <string name="app_color">color</string>
+    <string name="app_genero">genero</string>
+    <string name="app_descripcion">Descrip.</string>
+    <string name="app_raza">raza</string>
+    <string name="app_identificacion"># identidad</string>
 
 </resources>

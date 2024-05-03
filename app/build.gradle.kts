@@ -32,7 +32,12 @@ android {
 }
 
 dependencies {
+    //Recycle view
+    implementation ("androidx.recyclerview:recyclerview:1.3.2")
+    implementation ("androidx.recyclerview:recyclerview-selection:1.1.0")
 
+    //Card Vies
+    implementation ("androidx.cardview:cardview:1.0.0")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)

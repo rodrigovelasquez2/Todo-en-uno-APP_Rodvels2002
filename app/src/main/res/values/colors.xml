@@ -65,6 +65,21 @@
     <!--Colores que combinan en con verde militar-->
     <color name="marroncito">#d4a373</color>
 
+    <!-- Color transparente -->
+    <color name="transparent">#00000000</color>
+
+    <!-- Colores con transparencia -->
+    <color name="transparent_black">#33000000</color>
+    <color name="transparent_white">#33FFFFFF</color>
+    <color name="transparent_red">#33FF0000</color>
+    <color name="transparent_green">#3300FF00</color>
+    <color name="transparent_blue">#330000FF</color>
+    <color name="transparent_yellow">#33FFFF00</color>
+    <color name="transparent_cyan">#3300FFFF</color>
+    <color name="transparent_magenta">#33FF00FF</color>
+    <color name="transparent_gray">#33808080</color>
+    <color name="transparent_dark_gray">#33000000</color>
+    <color name="transparent_light_gray">#33CCCCCC</color>
 
 
 </resources>

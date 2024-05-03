@@ -10,6 +10,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.velasquez.todoenuno.cardView.main.CardViewRecycleView;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -87,6 +89,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, WebViewClass.class);
         startActivity(intent);
     }//Fin sendToWebView
+
+    public void sendToCardViewRecycleView (View view){
+        Intent intent = new Intent(MainActivity.this, CardViewRecycleView.class);
+        startActivity(intent);
+    }
 
 
 }//Fin MainActivity

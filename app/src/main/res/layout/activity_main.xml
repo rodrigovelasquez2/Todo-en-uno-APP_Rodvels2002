@@ -147,15 +147,22 @@
 
         <!--Cuarta fila-->
         <TableRow>
-            <!--Grip-->
             <Button
                 android:id="@+id/btnGripLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_above="@id/btnRelativeLayout"
                 android:backgroundTint="@color/salmon"
                 android:onClick="sendToGripLayouts"
                 android:text="@string/app_grip_layout" />
+
+            <Button
+                android:id="@+id/btnRecycleView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/verde_militar"
+                android:onClick="sendToCardViewRecycleView"
+               android:text="@string/app_recycle" />
+
         </TableRow>
     </TableLayout>
 

@@ -5,6 +5,26 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CardViewRecycleView">
+    tools:context=".cardView.main.CardViewRecycleView">
+
+    <TextView
+        android:id="@+id/textViewCardView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/turquoise"
+        android:fontFamily="@font/font_aacifico_regular"
+        android:gravity="center|bottom"
+        android:text="@string/app_recycle"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_cyan"
+        android:scrollbars="vertical"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
