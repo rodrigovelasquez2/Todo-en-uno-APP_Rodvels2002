@@ -101,4 +101,12 @@ public class MainActivity extends AppCompatActivity {
     }//Fin sendToSharePreferences
 
 
+    public void sendToContactosPreferencias(View view){
+        Intent intent = new Intent(MainActivity.this,ContactosPreferencias.class);
+        startActivity(intent);
+
+    }//Fin sendToContactosPreferencias
+
+
+
 }//Fin MainActivity

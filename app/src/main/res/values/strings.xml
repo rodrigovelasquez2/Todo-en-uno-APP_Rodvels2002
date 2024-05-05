@@ -1,23 +1,47 @@
 <resources>
-    <string name="app_name">Todo en uno</string>
+    <string name="app_name_aplicacion">Todo en uno</string>
     <string name="app_titulo_General">Todo en uno</string>
+
+    <!--HINT-->
     <string name="app_number1">Primer valor</string>
     <string name="app_number2">Segundo valor</string>
-    <string name="app_msg_button">Calcular</string>
-    <string name="app_resultado">Resultado</string>
-    <string name="app_spinner">Spinner</string>
-    <string name="app_title_ListViewTitle">ListView</string>
     <string name="app_insert_text">Insert text</string>
-    <string name="app_add">Add</string>
-    <string name="app_RadioButtonTitlle">Radio Botton</string>
-    <string name="app_title_ChecBox">Checkbox</string>
+    <string name="app_name">Name</string>
+    <string name="app_other_informations">Otros</string>
+
+
+    <!--Operaciones-->
+    <string name="app_title_Operaciones">Opeaciones</string>
     <string name="app_sumar">Sumar</string>
     <string name="app_restar">Restar</string>
     <string name="app_division">Division</string>
-    <string name="app_title_Operaciones">Opeaciones</string>
+    <string name="app_resultado">Resultado</string>
+    <string name="app_msg_button">Calcular</string>
+    <string name="app_add">Add</string>
+
+
+    <!--Spinner-->
+    <string name="app_spinner">Spinner</string>
+
+
+    <!--CHECKOBX-->
+    <string name="app_title_ChecBox">Checkbox</string>
+
+
+    <!--RADIO BUTTON-->
+    <string name="app_RadioButtonTitlle">Radio Botton</string>
+
+
+    <!--Layouts-->
     <string name="app_Layout">Layouts</string>
     <string name="app_relative_layout">Relative Layout</string>
     <string name="app_grip_layout">Grip Layout</string>
+
+
+    <!--List Views-->
+    <string name="app_title_ListViewTitle">ListView</string>
+
+    <!--Recycle Layout-->
     <string name="app_recycle">Recycle View</string>
     <string name="app_home">Home</string>
     <string name="app_clean_list">Clean List</string>
@@ -41,5 +65,7 @@
 
     <!--Share preferences-->
     <string name="app_share_preferences">Share preferences</string>
+    <string name="app_contactos">Contactos</string>
+
 
 </resources>

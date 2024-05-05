@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_people_eating"
+    tools:context=".ContactosPreferencias">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@color/transparent_dark_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!-- Tus componentes van aquí -->
+            <TextView
+                android:id="@+id/textViewSharePreferencesContactos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_aacifico_regular"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/app_share_preferences"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editTextSharePreferences_Contactos_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/app_name"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextSharePreferences_Contactos_Otros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/app_other_informations"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnSharePreferences_Contactos_Buscar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:onClick="buscarPreferences_Contactos"
+                android:backgroundTint="@color/transparent_black"
+                android:text="@string/app_buscar" />
+
+            <Button
+                android:id="@+id/btnSharePreferences_Contactos_agregar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="guardarDatosPreferences_Contactos"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/transparent_black"
+                android:text="@string/app_add" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

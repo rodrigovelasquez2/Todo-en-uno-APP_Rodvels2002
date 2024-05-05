@@ -80,6 +80,16 @@
     <color name="transparent_gray">#33808080</color>
     <color name="transparent_dark_gray">#33000000</color>
     <color name="transparent_light_gray">#33CCCCCC</color>
+    <color name="transparent_browm">#B26D510C</color>
+    <color name="transparent_gold">#B3F39C12</color>
+
+
+
+
+    <!--Transparencia personalizada-->
+    <color name="transparent_dark_gray_x2">#85000000</color>
+
+
 
 
 </resources>

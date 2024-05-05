@@ -29,10 +29,10 @@
     <!--TABLA DE BOTONES-->
     <TableLayout
         android:id="@+id/tableLayout"
-        android:layout_below="@+id/view_header"
         android:layout_width="match_parent"
-        android:layout_marginTop="30dp"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/view_header"
+        android:layout_marginTop="30dp"
         android:shrinkColumns="*"
         android:stretchColumns="*">
 
@@ -147,6 +147,7 @@
 
         <!--Cuarta fila-->
         <TableRow>
+
             <Button
                 android:id="@+id/btnGripLayout"
                 android:layout_width="match_parent"
@@ -161,25 +162,31 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/verde_militar"
                 android:onClick="sendToCardViewRecycleView"
-               android:text="@string/app_recycle" />
+                android:text="@string/app_recycle" />
 
             <Button
                 android:id="@+id/btnSharePreferences"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/black"
                 android:backgroundTint="@color/white"
                 android:onClick="sendToSharePreferences"
-                android:text="@string/app_share_preferences"/>
+                android:text="@string/app_share_preferences"
+                android:textColor="@color/black" />
 
 
         </TableRow>
 
+
         <!--Quinta fila-->
         <TableRow>
 
-
-
+            <Button
+                android:id="@+id/btnSharePreferencesContactos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/dark_gray"
+                android:onClick="sendToContactosPreferencias"
+                android:text="@string/app_contactos" />
 
 
         </TableRow>
