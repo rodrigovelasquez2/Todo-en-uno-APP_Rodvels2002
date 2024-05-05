@@ -16,6 +16,9 @@
         android:theme="@style/Theme.TodoEnUno"
         tools:targetApi="31">
         <activity
+            android:name=".Preferencias"
+            android:exported="false" />
+        <activity
             android:name=".cardView.main.CardViewRecycleView"
             android:exported="false" />
         <activity

@@ -38,4 +38,8 @@
     <string name="app_raza">raza</string>
     <string name="app_identificacion"># identidad</string>
 
+
+    <!--Share preferences-->
+    <string name="app_share_preferences">Share preferences</string>
+
 </resources>

@@ -163,7 +163,28 @@
                 android:onClick="sendToCardViewRecycleView"
                android:text="@string/app_recycle" />
 
+            <Button
+                android:id="@+id/btnSharePreferences"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/white"
+                android:onClick="sendToSharePreferences"
+                android:text="@string/app_share_preferences"/>
+
+
         </TableRow>
+
+        <!--Quinta fila-->
+        <TableRow>
+
+
+
+
+
+        </TableRow>
+
+
     </TableLayout>
 
 

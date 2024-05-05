@@ -95,5 +95,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void sendToSharePreferences(View view){
+        Intent intent = new Intent(MainActivity.this,Preferencias.class);
+        startActivity(intent);
+    }//Fin sendToSharePreferences
+
 
 }//Fin MainActivity
