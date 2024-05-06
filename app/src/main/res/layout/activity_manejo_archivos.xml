@@ -12,7 +12,7 @@
         android:id="@+id/textViewManejoArchivo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/edittext_border"
+        android:background="@drawable/borde_verde_neon"
         android:fontFamily="@font/font_bungeeoutlineregular"
         android:gravity="center"
         android:layout_marginEnd="10dp"
@@ -21,8 +21,7 @@
         android:text="@string/app_manejo_archivo"
         android:textColor="@color/rojo"
         android:textSize="30dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="1dp" />
+      />
 
     <EditText
         android:id="@+id/editTextAreaTextoManejoArchivo"
@@ -33,7 +32,7 @@
         android:textStyle="bold"
         android:textColor="@color/amarillo_verde"
         android:textColorHint="@color/pastel_yellow"
-        android:background="@drawable/edittext_border"
+        android:background="@drawable/borde_verde_neon"
         android:gravity="top"
         android:hint="@string/app_insert_text"
         app:layout_constraintBottom_toBottomOf="parent"

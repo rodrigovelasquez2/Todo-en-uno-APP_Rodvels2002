@@ -196,6 +196,13 @@
                 android:onClick="sendToManejoArchivos"
                 android:text="@string/app_manejo_archivo" />
 
+            <Button
+                android:id="@+id/btnTarjetaSD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/blue_steel"
+                android:onClick="sendTotarjetaSD"
+                android:text="@string/app_tarjeta_SD" />
 
         </TableRow>
 

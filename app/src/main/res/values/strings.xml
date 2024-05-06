@@ -71,4 +71,7 @@
     <!--Manejo de archivos-->
     <string name="app_manejo_archivo">Manejo de archivos</string>
 
+    <!--SD-->
+    <string name="app_tarjeta_SD">TARJETA SD</string>
+
 </resources>

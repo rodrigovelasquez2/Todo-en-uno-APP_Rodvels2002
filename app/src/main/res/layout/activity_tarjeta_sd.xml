@@ -5,6 +5,73 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_ladrillos"
     tools:context=".Tarjeta_SD">
 
+
+    <TextView
+        android:id="@+id/textViewTarjetaSD"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="40dp"
+        android:fontFamily="@font/font_bungeeoutlineregular"
+        android:gravity="center"
+        android:shadowColor="@color/cian"
+        android:text="@string/app_tarjeta_SD"
+        android:textColor="@color/cian"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextNameFile_TarjetaSD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textStyle="bold"
+        android:hint="@string/app_name"
+        android:textColor="@color/amarillo"
+        android:textColorHint="@color/cian"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTarjetaSD" />
+
+
+    <EditText
+        android:id="@+id/editTextContent_TarjetaSD"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="40dp"
+        android:background="@drawable/borde_cian_neon"
+        android:gravity="top"
+        android:hint="@string/app_insert_text"
+        android:textColor="@color/cian"
+        android:textColorHint="@color/amarillo"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:onClick="guardarTarjetaSD"
+        android:background="@drawable/icon_guardar"
+        android:backgroundTint="@color/amarillo_verde"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextContent_TarjetaSD" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:onClick="consultarTarjetaSD"
+        android:background="@drawable/find_file"
+        android:backgroundTint="@color/amarillo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextContent_TarjetaSD" />
+    />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -111,4 +111,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }//Fin sendToManejoArchivos
 
+    public void sendTotarjetaSD(View view){
+        Intent intent = new Intent(MainActivity.this,Tarjeta_SD.class);
+        startActivity(intent);
+    }//Fin sendTotarjetaSD
+
 }//Fin MainActivity
