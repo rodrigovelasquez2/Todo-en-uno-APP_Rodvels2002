@@ -18,7 +18,7 @@
     <string name="app_resultado">Resultado</string>
     <string name="app_msg_button">Calcular</string>
     <string name="app_add">Add</string>
-
+    <string name="app_guardar">Guardar</string>
 
     <!--Spinner-->
     <string name="app_spinner">Spinner</string>
@@ -52,7 +52,7 @@
     <string name="app_cerrar">Cerrar</string>
     <string name="app_buscar">Buscar</string>
 
-    <!--CARD VIES-->
+    <!--CARD VIEWS-->
     <string name="app_Large_Text">Large Text</string>
     <string name="app_name_pets">Pet´s Name</string>
     <string name="app_edad">Edad</string>
@@ -67,5 +67,8 @@
     <string name="app_share_preferences">Share preferences</string>
     <string name="app_contactos">Contactos</string>
 
+
+    <!--Manejo de archivos-->
+    <string name="app_manejo_archivo">Manejo de archivos</string>
 
 </resources>

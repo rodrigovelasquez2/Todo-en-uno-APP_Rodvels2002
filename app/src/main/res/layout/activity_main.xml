@@ -188,6 +188,14 @@
                 android:onClick="sendToContactosPreferencias"
                 android:text="@string/app_contactos" />
 
+            <Button
+                android:id="@+id/btnManejoArchivos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/transparent_gold"
+                android:onClick="sendToManejoArchivos"
+                android:text="@string/app_manejo_archivo" />
+
 
         </TableRow>
 

@@ -104,9 +104,11 @@ public class MainActivity extends AppCompatActivity {
     public void sendToContactosPreferencias(View view){
         Intent intent = new Intent(MainActivity.this,ContactosPreferencias.class);
         startActivity(intent);
-
     }//Fin sendToContactosPreferencias
 
-
+    public void sendToManejoArchivos(View view){
+        Intent intent = new Intent(MainActivity.this,ManejoArchivos.class);
+        startActivity(intent);
+    }//Fin sendToManejoArchivos
 
 }//Fin MainActivity

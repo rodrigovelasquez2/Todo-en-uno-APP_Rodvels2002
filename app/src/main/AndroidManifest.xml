@@ -16,6 +16,12 @@
         android:theme="@style/Theme.TodoEnUno"
         tools:targetApi="31">
         <activity
+            android:name=".Tarjeta_SD"
+            android:exported="false" />
+        <activity
+            android:name=".ManejoArchivos"
+            android:exported="false" />
+        <activity
             android:name=".ContactosPreferencias"
             android:exported="false" />
         <activity
