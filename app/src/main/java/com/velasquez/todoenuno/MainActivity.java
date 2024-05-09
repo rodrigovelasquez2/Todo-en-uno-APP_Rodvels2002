@@ -116,4 +116,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }//Fin sendTotarjetaSD
 
+    public void sendToSqlLite(View view){
+        Intent intent = new Intent(MainActivity.this,BaseDatosSqlLite.class);
+        startActivity(intent);
+    }//Fin sendToSqlLite
+
 }//Fin MainActivity

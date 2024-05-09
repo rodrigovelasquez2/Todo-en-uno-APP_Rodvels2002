@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BaseDatosSqlLite">
+
+
+    <TextView
+        android:id="@+id/textViewSqlLite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/sky"
+        android:fontFamily="@font/font_aacifico_regular"
+        android:gravity="center"
+        android:text="@string/app_baseDatos"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/imageViewLogoSqlLite"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/icon_sqlite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSqlLite"/>
+
+    <EditText
+        android:id="@+id/editTextCodigoProducto_SQlite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="40dp"
+        android:hint="@string/app_SQlite_codigo"
+        android:inputType="number"
+        android:textColor="@color/turquoise"
+        android:textColorHint="@color/blue_steel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageViewLogoSqlLite" />
+
+
+    <EditText
+        android:id="@+id/editTextDescripcionProducto_SQLite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="40dp"
+        android:hint="@string/app_descripcion"
+        android:textColor="@color/turquoise"
+        android:textColorHint="@color/blue_steel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextCodigoProducto_SQlite"/>
+
+
+    <EditText
+        android:id="@+id/editTextPrecioProducto_SQlite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="40dp"
+        android:hint="@string/app_precio"
+        android:textColor="@color/turquoise"
+        android:textColorHint="@color/blue_steel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextDescripcionProducto_SQLite" />
+
+
+    <!--Para vertical se usa el height="match_parent"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPrecioProducto_SQlite">
+
+
+        <Button
+            android:id="@+id/btnRegistarProducto_SQLite"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:onClick="registrar_SQLite"
+            android:backgroundTint="@color/sky"
+            android:fontFamily="@font/font_poetsenone_regular"
+            android:text="@string/app_crud_SQlite_Crear"
+            android:textColor="@color/white"
+            app:cornerRadius="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewLogoSqlLite"/>
+
+        <Button
+            android:id="@+id/btnBuscarProducto_SQLite"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:onClick="buscarSQLite"
+            android:backgroundTint="@color/sky"
+            android:fontFamily="@font/font_poetsenone_regular"
+            android:text="@string/app_crud_SQlite_Buscar"
+            app:cornerRadius="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewLogoSqlLite"/>
+
+
+        <Button
+            android:id="@+id/btnModificarProducto_SQLite"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/sky"
+            android:fontFamily="@font/font_poetsenone_regular"
+            android:text="@string/app_crud_SQlite_Actualizar"
+            android:textColor="@color/white"
+            app:cornerRadius="0dp"
+            android:onClick="modificar_SQLite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewLogoSqlLite"/>
+
+        <Button
+            android:id="@+id/btnEliminarProducto_SQLite"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:onClick="eliminar_SQlite"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/sky"
+            android:fontFamily="@font/font_poetsenone_regular"
+            android:text="@string/app_crud_SQlite_Eliminar"
+            app:cornerRadius="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewLogoSqlLite"/>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

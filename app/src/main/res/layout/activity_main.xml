@@ -5,14 +5,14 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/verde_militar5"
+    android:background="@drawable/background_principal"
     tools:context=".MainActivity">
 
     <View
         android:id="@+id/view_header"
         android:layout_width="match_parent"
         android:layout_height="125dp"
-        android:background="@drawable/backgroun_todo_en_uno" />
+        android:background="@color/transparent_black" />
 
     <!--Header-->
     <TextView
@@ -20,19 +20,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
+        android:fontFamily="@font/font_poetsenone_regular"
         android:gravity="center"
         android:text="@string/app_titulo_General"
         android:textColor="@color/white"
-        android:textSize="30dp"
+        android:textSize="40dp"
         android:textStyle="italic|bold" />
 
     <!--TABLA DE BOTONES-->
     <TableLayout
         android:id="@+id/tableLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_below="@+id/view_header"
-        android:layout_marginTop="30dp"
+        android:layout_margin="20dp"
         android:shrinkColumns="*"
         android:stretchColumns="*">
 
@@ -71,6 +72,7 @@
                 android:backgroundTint="@color/gold"
                 android:onClick="sendToButtonRadioButton"
                 android:text="RadioButton" />
+
 
         </TableRow>
 
@@ -203,6 +205,20 @@
                 android:backgroundTint="@color/blue_steel"
                 android:onClick="sendTotarjetaSD"
                 android:text="@string/app_tarjeta_SD" />
+        </TableRow>
+
+
+        <!--Quinta fila-->
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnSQLite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:onClick="sendToSqlLite"
+                android:textColor="@color/black"
+                android:text="@string/app_baseDatos" />
 
         </TableRow>
 
@@ -211,16 +227,5 @@
 
 
     <!--Footer-->
-    <TextView
-        android:id="@+id/Footer"
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerInParent="true"
-        android:background="@color/verde_militar3"
-        android:fontFamily="sans-serif-smallcaps"
-        android:gravity="center"
-        android:text="@string/app_titulo_General"
-        android:textColor="@color/white"
-        android:textStyle="italic|bold" />
+
 </RelativeLayout>

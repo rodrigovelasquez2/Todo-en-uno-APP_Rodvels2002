@@ -28,10 +28,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
-        android:textStyle="bold"
         android:hint="@string/app_name"
         android:textColor="@color/amarillo"
         android:textColorHint="@color/cian"
+        android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@+id/textViewTarjetaSD" />
 
 
@@ -52,25 +52,40 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="20dp"
-        android:onClick="guardarTarjetaSD"
-        android:background="@drawable/icon_guardar"
-        android:backgroundTint="@color/amarillo_verde"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextContent_TarjetaSD" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/editTextContent_TarjetaSD">
+
+        <ImageButton
+            android:id="@+id/imgButtonGuardar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/icon_guardar"
+            android:backgroundTint="@color/amarillo_verde"
+            android:onClick="guardarTarjetaSD" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/app_guardar"
+            android:textColor="@color/amarillo_verde" />
+    </LinearLayout>
+
 
     <ImageButton
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="40dp"
-        android:onClick="consultarTarjetaSD"
         android:background="@drawable/find_file"
         android:backgroundTint="@color/amarillo"
+        android:onClick="consultarTarjetaSD"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextContent_TarjetaSD" />
     />

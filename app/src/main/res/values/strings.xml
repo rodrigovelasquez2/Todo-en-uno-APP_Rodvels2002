@@ -74,4 +74,16 @@
     <!--SD-->
     <string name="app_tarjeta_SD">TARJETA SD</string>
 
+
+    <!--Base de datos SQL LITE-->
+    <string name="app_baseDatos">SQLite</string>
+    <string name="app_crud_SQlite_Crear">Registrar Producto</string>
+    <string name="app_crud_SQlite_Actualizar">Modificar Producto</string>
+    <string name="app_crud_SQlite_Eliminar">Eliminar Producto</string>
+    <string name="app_crud_SQlite_Buscar">Buscar Producto</string>
+
+    <string name="app_SQlite_codigo">Registrar codigo</string>
+    <string name="app_cantidad">Cantidad</string>
+    <string name="app_precio">Precio del producto</string>
+
 </resources>

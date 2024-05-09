@@ -61,7 +61,7 @@
     <color name="verde_militar3">#588157</color>
     <color name="verde_militar4">#a3b18a</color>
     <color name="verde_militar5">#dad7cd</color>
-    
+
     <!--Colores que combinan en con verde militar-->
     <color name="marroncito">#d4a373</color>
 
@@ -83,13 +83,9 @@
     <color name="transparent_browm">#B26D510C</color>
     <color name="transparent_gold">#B3F39C12</color>
 
-
+    <color name="rojo_escarlata">#c1121f</color>
 
 
     <!--Transparencia personalizada-->
     <color name="transparent_dark_gray_x2">#85000000</color>
-
-
-
-
 </resources>
