@@ -86,4 +86,9 @@
     <string name="app_cantidad">Cantidad</string>
     <string name="app_precio">Precio del producto</string>
 
+
+    <!--Frame Layout-->
+    <string name="app_aparecer">Aparecer</string>
+    <string name="app_frame_layout">Frame Layout</string>
+
 </resources>

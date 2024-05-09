@@ -119,6 +119,15 @@ public class MainActivity extends AppCompatActivity {
     public void sendToSqlLite(View view){
         Intent intent = new Intent(MainActivity.this,BaseDatosSqlLite.class);
         startActivity(intent);
+
     }//Fin sendToSqlLite
+
+    public void sendToFrameLayout(View view){
+        Intent intent = new Intent(MainActivity.this,FrameLayout.class);
+        startActivity(intent);
+    }//Fin sendToFrameLayout
+
+
+
 
 }//Fin MainActivity
