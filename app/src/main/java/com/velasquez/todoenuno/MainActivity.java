@@ -136,5 +136,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void sendToSound(View view){
+        Intent intent = new Intent(MainActivity.this, SoundPool_MediaPlayer.class);
+        startActivity(intent);
+    }
+
+
+
 
 }//Fin MainActivity

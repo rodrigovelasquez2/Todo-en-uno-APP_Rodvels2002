@@ -5,7 +5,24 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/discord"
     tools:context=".SoundPool_MediaPlayer">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/font_jaro"
+        android:gravity="center"
+        android:text="@string/app_reproductormusica"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <TableLayout
         android:layout_width="300dp"
@@ -18,47 +35,69 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:fontFamily="@font/font_jaro"
+            android:gravity="center"
+            android:text="@string/app_sound_pool"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <!--Primer fila-->
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/imageButton_Pato"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:onClick="audioCuak"
+                android:background="@color/transparent_dark_gray"
+                android:scaleType="centerInside"
+                android:src="@drawable/pato"
+                app:srcCompat="@drawable/pato"/>
+
+            <ImageButton
+                android:id="@+id/imageButton_Cat"
+                android:layout_width="0dp"
+                android:onClick="audioMeow"
+                android:layout_height="100dp"
+                android:background="@color/transparent_dark_gray"
+                android:scaleType="centerInside"
+                android:src="@drawable/gato"
+                app:srcCompat="@drawable/gato" />
+        </TableRow>
+
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:text=""
+            android:fontFamily="@font/font_jaro"
+            android:gravity="center"
+            android:text="@string/app_media_player"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
-            />
-
-
-        <!--Primer fila-->
-        <TableRow>
-
-
-
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-        </TableRow>
-
-        <TableRow>
-
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-        </TableRow>
-
+        <ImageButton
+            android:id="@+id/soundpool_syntwwave"
+            android:layout_height="100dp"
+            android:background="@color/transparent"
+            android:onClick="audioPlayer"
+            android:scaleType="centerInside"
+            android:src="@drawable/synthwarename"/>
 
     </TableLayout>
 
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/discord_icon"
+        android:onClick="stopMediaPlayer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

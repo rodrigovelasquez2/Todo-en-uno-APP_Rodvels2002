@@ -208,7 +208,7 @@
         </TableRow>
 
 
-        <!--Quinta fila-->
+        <!--Sexta fila-->
         <TableRow>
 
             <Button
@@ -241,6 +241,23 @@
                 android:textStyle="bold"/>
 
         </TableRow>
+
+
+        <!--Sexta fila-->
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnSounds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:onClick="sendToSound"
+                android:text="@string/app_reproductormusica"
+                android:textColor="@color/black"/>
+
+
+        </TableRow>
+
 
 
     </TableLayout>

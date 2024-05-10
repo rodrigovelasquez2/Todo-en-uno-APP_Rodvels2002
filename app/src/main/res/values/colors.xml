@@ -88,4 +88,7 @@
 
     <!--Transparencia personalizada-->
     <color name="transparent_dark_gray_x2">#85000000</color>
+
+    <!--Discord-->
+    <color name="discord">#5865f2</color>
 </resources>
