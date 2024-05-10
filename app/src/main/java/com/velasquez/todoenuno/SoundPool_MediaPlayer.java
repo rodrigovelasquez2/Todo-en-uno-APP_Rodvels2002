@@ -85,6 +85,6 @@ public class SoundPool_MediaPlayer extends AppCompatActivity {
             mp.stop();
             mp.release();
             mp = null;
-        }
-    }
-}
+        }//Fin if
+    }//Fin stopMediaPlayer
+}//Fin activity_sound_pool_media_player
