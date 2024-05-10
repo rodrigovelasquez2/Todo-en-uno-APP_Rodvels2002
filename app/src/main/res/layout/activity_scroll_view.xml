@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/app_descripcion"
+    tools:context=".ScrollView">
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageBananas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/pastel_orange"
+                android:onClick="seleccionar"
+                app:srcCompat="@drawable/bananas" />
+
+            <ImageButton
+                android:id="@+id/imageCereza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/pastel_red"
+                android:onClick="seleccionar"
+                app:srcCompat="@drawable/cerezas" />
+
+
+            <ImageButton
+                android:id="@+id/imageFrambuesa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/pastel_2"
+                android:onClick="seleccionar"
+                app:srcCompat="@drawable/frambuesas" />
+
+            <ImageButton
+                android:id="@+id/imageFresas"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/transparent_red"
+                android:onClick="seleccionar"
+                app:srcCompat="@drawable/fresas" />
+
+            <ImageButton
+                android:id="@+id/imageKiwis"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/pastel_orange"
+                android:onClick="seleccionar"
+                app:srcCompat="@drawable/kiwis" />
+
+
+            <ImageButton
+                android:id="@+id/imageMangos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/transparent"
+
+                android:onClick="seleccionar"
+                app:srcCompat="@drawable/mangos" />
+
+
+            <ImageButton
+                android:id="@+id/imageManzanas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/pastel_purple"
+
+                android:onClick="seleccionar"
+                app:srcCompat="@drawable/manzanas" />
+
+            <ImageButton
+                android:id="@+id/imageMelon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/pastel_yellow"
+
+                android:onClick="seleccionar"
+                app:srcCompat="@drawable/melon" />
+
+            <ImageButton
+                android:id="@+id/imageNaranjas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="@color/amarillo_verde"
+                android:onClick="seleccionar"
+                app:srcCompat="@drawable/naranjas" />
+
+
+            <ImageButton
+                android:id="@+id/imagePera"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/amarillo_verde"
+                android:onClick="seleccionar"
+                app:srcCompat="@drawable/pera" />
+
+            <ImageButton
+                android:id="@+id/imagePiña"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="@color/pastel_orange"
+                android:onClick="seleccionar"
+                app:srcCompat="@drawable/pina" />
+
+
+            <ImageButton
+                android:id="@+id/imageSandia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/pastel_red"
+
+                android:onClick="seleccionar"
+                app:srcCompat="@drawable/sandia" />
+
+            <ImageButton
+                android:id="@+id/imageUvas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="@color/amarillo_verde"
+                android:onClick="seleccionar"
+                app:srcCompat="@drawable/uvas" />
+
+            <ImageButton
+                android:id="@+id/imageZarzamora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="@color/pastel_purple"
+                android:onClick="seleccionar"
+                app:srcCompat="@drawable/zarzamora" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

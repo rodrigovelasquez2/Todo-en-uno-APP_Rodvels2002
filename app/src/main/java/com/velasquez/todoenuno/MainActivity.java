@@ -85,49 +85,52 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }//Fin sendToImagenButton
 
-    public void sendToWebView(View view){
+    public void sendToWebView(View view) {
         Intent intent = new Intent(MainActivity.this, WebViewClass.class);
         startActivity(intent);
     }//Fin sendToWebView
 
-    public void sendToCardViewRecycleView (View view){
+    public void sendToCardViewRecycleView(View view) {
         Intent intent = new Intent(MainActivity.this, CardViewRecycleView.class);
         startActivity(intent);
     }
 
-    public void sendToSharePreferences(View view){
-        Intent intent = new Intent(MainActivity.this,Preferencias.class);
+    public void sendToSharePreferences(View view) {
+        Intent intent = new Intent(MainActivity.this, Preferencias.class);
         startActivity(intent);
     }//Fin sendToSharePreferences
 
 
-    public void sendToContactosPreferencias(View view){
-        Intent intent = new Intent(MainActivity.this,ContactosPreferencias.class);
+    public void sendToContactosPreferencias(View view) {
+        Intent intent = new Intent(MainActivity.this, ContactosPreferencias.class);
         startActivity(intent);
     }//Fin sendToContactosPreferencias
 
-    public void sendToManejoArchivos(View view){
-        Intent intent = new Intent(MainActivity.this,ManejoArchivos.class);
+    public void sendToManejoArchivos(View view) {
+        Intent intent = new Intent(MainActivity.this, ManejoArchivos.class);
         startActivity(intent);
     }//Fin sendToManejoArchivos
 
-    public void sendTotarjetaSD(View view){
-        Intent intent = new Intent(MainActivity.this,Tarjeta_SD.class);
+    public void sendTotarjetaSD(View view) {
+        Intent intent = new Intent(MainActivity.this, Tarjeta_SD.class);
         startActivity(intent);
     }//Fin sendTotarjetaSD
 
-    public void sendToSqlLite(View view){
-        Intent intent = new Intent(MainActivity.this,BaseDatosSqlLite.class);
+    public void sendToSqlLite(View view) {
+        Intent intent = new Intent(MainActivity.this, BaseDatosSqlLite.class);
         startActivity(intent);
 
     }//Fin sendToSqlLite
 
-    public void sendToFrameLayout(View view){
-        Intent intent = new Intent(MainActivity.this,FrameLayout.class);
+    public void sendToFrameLayout(View view) {
+        Intent intent = new Intent(MainActivity.this, FrameLayout.class);
         startActivity(intent);
     }//Fin sendToFrameLayout
 
-
+    public void sendToScrolView(View view) {
+        Intent intent = new Intent(MainActivity.this, ScrollView.class);
+        startActivity(intent);
+    }
 
 
 }//Fin MainActivity

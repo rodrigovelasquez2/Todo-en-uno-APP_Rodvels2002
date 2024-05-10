@@ -218,7 +218,7 @@
                 android:backgroundTint="@color/white"
                 android:onClick="sendToSqlLite"
                 android:text="@string/app_baseDatos"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"/>
 
             <Button
                 android:id="@+id/btnFrame"
@@ -227,6 +227,16 @@
                 android:backgroundTint="@color/pastel_orange"
                 android:onClick="sendToFrameLayout"
                 android:text="@string/app_frame_layout"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btnScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/pastel_red"
+                android:onClick="sendToScrolView"
+                android:text="@string/app_scrollView"
                 android:textColor="@color/black"
                 android:textStyle="bold"/>
 

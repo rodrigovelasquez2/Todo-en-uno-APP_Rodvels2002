@@ -91,4 +91,7 @@
     <string name="app_aparecer">Aparecer</string>
     <string name="app_frame_layout">Frame Layout</string>
 
+
+    <!--scroll view-->
+    <string name="app_scrollView">Scroll View</string>
 </resources>
