@@ -129,7 +129,7 @@
                 android:backgroundTint="@color/pastel_red"
 
                 android:onClick="seleccionar"
-                app:srcCompat="@drawable/sandia" />
+                app:srcCompat="@drawable/sandia"/>
 
             <ImageButton
                 android:id="@+id/imageUvas"

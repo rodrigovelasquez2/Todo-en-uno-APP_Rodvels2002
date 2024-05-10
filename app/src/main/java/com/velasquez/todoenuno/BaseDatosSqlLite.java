@@ -33,6 +33,7 @@ public class BaseDatosSqlLite extends AppCompatActivity {
         editTextDescripcion = findViewById(R.id.editTextDescripcionProducto_SQLite);
         editTextPrecio = findViewById(R.id.editTextPrecioProducto_SQlite);
 
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
