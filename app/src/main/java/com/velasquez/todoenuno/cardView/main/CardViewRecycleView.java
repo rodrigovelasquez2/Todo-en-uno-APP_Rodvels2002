@@ -27,7 +27,7 @@ public class CardViewRecycleView extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_card_view_recycle_view);
+        setContentView(R.layout.activity_card_view_recycle_view); // Recuperar el recycle view
 
         //Capturar componentes:
         recyclerView = findViewById(R.id.recycle);
