@@ -10,7 +10,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView_portada"
         android:layout_width="301dp"
         android:layout_height="496dp"
         android:scaleType="centerCrop"
