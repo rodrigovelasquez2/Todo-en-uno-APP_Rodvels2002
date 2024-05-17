@@ -16,6 +16,9 @@
         android:theme="@style/Theme.TodoEnUno"
         tools:targetApi="31">
         <activity
+            android:name=".ReproductorMusica"
+            android:exported="false" />
+        <activity
             android:name=".SoundPool_MediaPlayer"
             android:exported="false" />
         <activity
