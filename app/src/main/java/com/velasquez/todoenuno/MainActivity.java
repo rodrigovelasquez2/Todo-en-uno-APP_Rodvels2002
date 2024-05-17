@@ -141,6 +141,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void sendToReproductorMusica(View view){
+        Intent intent = new Intent(MainActivity.this, ReproductorMusica.class);
+        startActivity(intent);
+    }//Fin sendToReproductorMusica
+
+
 
 
 

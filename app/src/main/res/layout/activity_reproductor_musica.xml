@@ -5,6 +5,77 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".ReproductorMusica">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="301dp"
+        android:layout_height="496dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/portada1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <ImageButton
+            android:id="@+id/imageButtonRepeat_Rep.Musica"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/icon_no_repetir"
+            android:backgroundTint="@color/white" />
+
+
+        <ImageButton
+            android:id="@+id/imageButtonRetroceder_Rep.Musica"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/icon_anterior"
+            android:backgroundTint="@color/white" />
+
+
+        <ImageButton
+            android:id="@+id/imageButtonPlay_Rep.Musica"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/icon_reproducir"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter" />
+
+
+        <ImageButton
+            android:id="@+id/imageButtonAvanzar_Rep.Musica"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/icon_siguiente"
+            android:backgroundTint="@color/white"
+            android:scaleType="centerInside" />
+
+
+        <ImageButton
+            android:id="@+id/imageButtonDetener_Rep.Musica"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/icon_detener"
+            android:backgroundTint="@color/white" />
+    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

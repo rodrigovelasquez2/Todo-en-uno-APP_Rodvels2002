@@ -252,8 +252,18 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/white"
                 android:onClick="sendToSound"
-                android:text="@string/app_reproductormusica"
+                android:text="@string/app_sound_pool"
                 android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/btnReproductorMusica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/rojo"
+                android:onClick="sendToReproductorMusica"
+                android:text="@string/app_reproductormusica"
+                android:textColor="@color/white"/>
+
 
 
         </TableRow>
