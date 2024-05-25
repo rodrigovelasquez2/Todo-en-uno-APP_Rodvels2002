@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChatHistory">
+    <accountData>
+      <list>
+        <AccountData>
+          <accountId value="VXNlcjo0MzA5OTc=" />
+          <chats>
+            <list>
+              <chat>
+                <internalId value="fe669935-2d9d-462a-ab8c-a615febf0b52" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="a1f911f3-cd52-4651-9c60-32a43e748f83" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+                <messages>
+                  <list>
+                    <message>
+                      <speaker value="HUMAN" />
+                      <text value="Agrega un java doc en la primera parte de que trata la clase " />
+                    </message>
+                    <message>
+                      <speaker value="ASSISTANT" />
+                      <text value="Claro, aquí te agrego un JavaDoc al inicio de cada clase explicando de qué trata:&#10;&#10;ListViewClass.java:&#10;```java&#10;/**&#10; * Esta clase representa una actividad que muestra una ListView y permite al usuario&#10; * agregar elementos a la lista mediante un EditText y un botón. También incluye&#10; * un método para limpiar la lista.&#10; */&#10;public class ListViewClass extends AppCompatActivity {&#10;    // ... (resto del código)&#10;```&#10;&#10;WebViewClass.java:&#10;```java&#10;/**&#10; * Esta clase representa una actividad que muestra un WebView y permite al usuario&#10; * navegar a diferentes sitios web ingresando una URL en un EditText. También verifica&#10; * si hay conexión a Internet antes de cargar la página web.&#10; */&#10;public class WebViewClass extends AppCompatActivity {&#10;    // ... (resto del código)&#10;```&#10;&#10;CheckBoxClass.java:&#10;```java&#10;/**&#10; * Esta clase representa una actividad que permite al usuario realizar operaciones&#10; * aritméticas (suma, resta y división) entre dos números ingresados en EditText.&#10; * El usuario puede seleccionar las operaciones a realizar mediante CheckBoxes.&#10; */&#10;public class CheckBoxClass extends AppCompatActivity {&#10;    // ... (resto del código)&#10;```&#10;&#10;ImageButtonClass.java:&#10;```java&#10;/**&#10; * Esta clase representa una actividad que contiene tres ImageButtons que muestran&#10; * un Toast cuando se hace clic en ellos.&#10; */&#10;public class ImageButtonClass extends AppCompatActivity {&#10;    // ... (resto del código)&#10;```" />
+                    </message>
+                  </list>
+                </messages>
+                <updatedAt value="2024-05-24T20:12:35.5011225" />
+              </chat>
+              <chat>
+                <internalId value="ebe8d3be-7b5c-4075-9912-e925514e96bf" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="9e4cb86b-0391-4835-a87e-3f58ee9a4991" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+            </list>
+          </chats>
+          <defaultLlm>
+            <llm>
+              <model value="anthropic/claude-3-sonnet-20240229" />
+              <provider value="Anthropic" />
+              <title value="Claude 3 Sonnet" />
+            </llm>
+          </defaultLlm>
+        </AccountData>
+      </list>
+    </accountData>
+  </component>
+</project>

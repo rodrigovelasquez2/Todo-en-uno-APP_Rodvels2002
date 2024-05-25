@@ -145,4 +145,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, ReproductorMusica.class);
         startActivity(intent);
     }//Fin sendToReproductorMusica
+
+    public void sendToGrabadora(View view) {
+        Intent intent = new Intent(MainActivity.this, Grabadora.class);
+        startActivity(intent);
+    }//Fin sendToReproductorMusica
+
 }//Fin MainActivity

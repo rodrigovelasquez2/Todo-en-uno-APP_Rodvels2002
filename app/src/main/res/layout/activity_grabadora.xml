@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degrade_wate_aquajpg"
+    tools:context=".Grabadora">
+
+    <!--Banner-->
+    <View
+        android:id="@+id/bannerGrabadora"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/transparent_dark_gray_x2" />
+
+    <!--Voz-->
+    <ImageView
+        android:id="@+id/grabadora_ondas"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:visibility="invisible"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/voz"
+        app:layout_constraintBottom_toTopOf="@id/grabadora_audifono"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bannerGrabadora" />
+
+    <!--Audifono-->
+    <ImageView
+        android:id="@+id/grabadora_audifono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/audio_sin_reproducir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/font_jaro"
+        android:gravity="center"
+        android:text="@string/app_grabacion"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/bannerGrabadora"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bannerGrabadora" />
+
+
+    <!--Botones-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/grabadora_audifono">
+
+
+        <Button
+            android:id="@+id/btn_grabadora_rec"
+            android:layout_width="50dp"
+            android:onClick="recorder"
+            android:layout_height="50dp"
+            android:background="@drawable/record_off"/>
+        <Button
+            android:layout_width="50dp"
+            android:onClick="reproducir"
+            android:layout_height="50dp"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/icon_reproducir" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

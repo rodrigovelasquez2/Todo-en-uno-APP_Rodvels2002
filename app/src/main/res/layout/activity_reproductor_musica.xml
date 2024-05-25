@@ -39,7 +39,7 @@
             android:layout_height="30dp"
             android:layout_margin="10dp"
             android:background="@drawable/icon_no_repetir"
-            android:backgroundTint="@color/white" />
+            android:backgroundTint="@color/white"/>
 
 
         <Button
@@ -48,8 +48,7 @@
             android:layout_height="30dp"
             android:layout_margin="10dp"
             android:onClick="setAnteriorMusica"
-            android:background="@drawable/icon_anterior"
-            android:backgroundTint="@color/white"/>
+            android:background="@drawable/icon_anterior" />
 
 
         <Button

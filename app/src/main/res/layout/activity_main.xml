@@ -47,9 +47,8 @@
                 android:layout_height="wrap_content"
                 android:layout_above="@id/Footer"
                 android:layout_alignParentLeft="true"
-                android:layout_marginLeft="0dp"
                 android:layout_marginBottom="10dp"
-                android:backgroundTint="@color/marroncito"
+                android:backgroundTint="@color/coral"
                 android:onClick="sendToButtonSpinner"
                 android:text="SPINNER" />
 
@@ -59,7 +58,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_above="@id/btnSpinner"
-                android:backgroundTint="@color/turquoise"
+                android:backgroundTint="@color/naranja"
                 android:onClick="sendToButtonListView"
                 android:text="@string/app_title_ListViewTitle" />
 
@@ -69,7 +68,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_above="@id/btnList_activityMain"
-                android:backgroundTint="@color/gold"
+                android:backgroundTint="@color/crimsom"
                 android:onClick="sendToButtonRadioButton"
                 android:text="RadioButton" />
 
@@ -82,7 +81,9 @@
             <Button
                 android:id="@+id/btnCheckboxButton_activityMain"
                 android:layout_width="match_parent"
+                android:backgroundTint="@color/amarillo_verde"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:layout_above="@id/btnRadioButtonMain_activityMain"
                 android:onClick="sendToButtonCheckBox"
                 android:text="@string/app_title_ChecBox" />
@@ -93,7 +94,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_above="@id/btnCheckboxButton_activityMain"
-                android:backgroundTint="@color/coral"
+                android:backgroundTint="@color/turquoise"
                 android:onClick="sendToLayouts"
                 android:text="@string/app_Layout" />
 
@@ -103,7 +104,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_above="@id/btnLayouts"
-                android:backgroundTint="@color/dark_gray"
+                android:backgroundTint="@color/transparent_yellow"
                 android:onClick="sendToLayoutRelative"
                 android:text="@string/app_relative_layout" />
         </TableRow>
@@ -119,7 +120,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_above="@id/btnGripLayout"
-                android:backgroundTint="@color/verde_militar4"
+                android:backgroundTint="@color/violeta"
                 android:onClick="sendToImagenButton"
                 android:text="@string/app_ImageButton" />
 
@@ -129,7 +130,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_above="@id/btnImageButton"
-                android:backgroundTint="@color/amarillo_verde"
+                android:backgroundTint="@color/rosa"
                 android:onClick="sendToPutBundle"
                 android:text="@string/app_Put_bundle"
                 android:textColor="@color/black" />
@@ -170,10 +171,10 @@
                 android:id="@+id/btnSharePreferences"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="@color/verde_militar3"
                 android:onClick="sendToSharePreferences"
                 android:text="@string/app_share_preferences"
-                android:textColor="@color/black" />
+                android:textColor="@color/white" />
 
 
         </TableRow>
@@ -250,7 +251,7 @@
                 android:id="@+id/btnSounds"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="@color/naranja"
                 android:onClick="sendToSound"
                 android:text="@string/app_sound_pool"
                 android:textColor="@color/black"/>
@@ -262,6 +263,16 @@
                 android:backgroundTint="@color/rojo"
                 android:onClick="sendToReproductorMusica"
                 android:text="@string/app_reproductormusica"
+                android:textColor="@color/white"/>
+
+
+            <Button
+                android:id="@+id/btnGrabadora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/green"
+                android:onClick="sendToGrabadora"
+                android:text="@string/app_grabacion"
                 android:textColor="@color/white"/>
         </TableRow>
     </TableLayout>

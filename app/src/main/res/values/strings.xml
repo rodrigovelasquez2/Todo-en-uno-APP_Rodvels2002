@@ -100,4 +100,8 @@
     <string name="app_media_player">Media Player</string>
     <string name="app_sound_pool">SoundPoll</string>
     <string name="app_reproductormusica">Reproductor de musica</string>
+
+
+    <!--Grabadora-->
+    <string name="app_grabacion">Media Recorder</string>
 </resources>
