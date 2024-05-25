@@ -263,16 +263,6 @@
                 android:onClick="sendToReproductorMusica"
                 android:text="@string/app_reproductormusica"
                 android:textColor="@color/white"/>
-
-
-
         </TableRow>
-
-
-
     </TableLayout>
-
-
-    <!--Footer-->
-
 </RelativeLayout>

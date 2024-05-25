@@ -32,49 +32,54 @@
         app:layout_constraintStart_toStartOf="parent">
 
 
-        <ImageButton
-            android:id="@+id/imageButtonRepeat_Rep.Musica"
+        <Button
+            android:id="@+id/imageButtonRepeat_Rep_Musica"
             android:layout_width="20dp"
+            android:onClick="setRepeat"
             android:layout_height="30dp"
             android:layout_margin="10dp"
             android:background="@drawable/icon_no_repetir"
             android:backgroundTint="@color/white" />
 
 
-        <ImageButton
-            android:id="@+id/imageButtonRetroceder_Rep.Musica"
+        <Button
+            android:id="@+id/imageButtonRetroceder_Rep_Musica"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_margin="10dp"
+            android:onClick="setAnteriorMusica"
             android:background="@drawable/icon_anterior"
-            android:backgroundTint="@color/white" />
+            android:backgroundTint="@color/white"/>
 
 
-        <ImageButton
-            android:id="@+id/imageButtonPlay_Rep.Musica"
+        <Button
+            android:id="@+id/imageButtonPlay_Rep_Musica"
             android:layout_width="50dp"
             android:layout_height="50dp"
+            android:onClick="setPlay_pause"
             android:background="@drawable/icon_reproducir"
             android:backgroundTint="@color/white"
-            android:scaleType="fitCenter" />
+            android:scaleType="fitCenter"/>
 
 
-        <ImageButton
-            android:id="@+id/imageButtonAvanzar_Rep.Musica"
+        <Button
+            android:id="@+id/imageButtonAvanzar_Rep_Musica"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_margin="10dp"
+            android:onClick="setSiguienteCancion"
             android:background="@drawable/icon_siguiente"
             android:backgroundTint="@color/white"
-            android:scaleType="centerInside" />
+            android:scaleType="centerInside"/>
 
 
-        <ImageButton
-            android:id="@+id/imageButtonDetener_Rep.Musica"
+        <Button
+            android:id="@+id/imageButtonDetener_Rep_Musica"
             android:layout_width="30dp"
+            android:onClick="setStop"
             android:layout_height="30dp"
             android:background="@drawable/icon_detener"
-            android:backgroundTint="@color/white" />
+            android:backgroundTint="@color/white"/>
     </LinearLayout>
 
 
