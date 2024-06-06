@@ -21,8 +21,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-
-
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -136,12 +134,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void sendToSound(View view){
+    public void sendToSound(View view) {
         Intent intent = new Intent(MainActivity.this, SoundPool_MediaPlayer.class);
         startActivity(intent);
     }
 
-    public void sendToReproductorMusica(View view){
+    public void sendToReproductorMusica(View view) {
         Intent intent = new Intent(MainActivity.this, ReproductorMusica.class);
         startActivity(intent);
     }//Fin sendToReproductorMusica
@@ -150,5 +148,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, Grabadora.class);
         startActivity(intent);
     }//Fin sendToReproductorMusica
+
+    public void sendToMultilenguaje(View view) {
+        Intent intent = new Intent(MainActivity.this, Multilenguaje.class);
+        startActivity(intent);
+    }
 
 }//Fin MainActivity

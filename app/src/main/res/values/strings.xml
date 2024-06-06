@@ -104,4 +104,9 @@
 
     <!--Grabadora-->
     <string name="app_grabacion">Media Recorder</string>
+
+    <!--Multilenguaje-->
+    <string name="app_titulo_multilenguaje">Multilenguaje</string>
+    <string name="app_saludos">Saludos</string>
+    <string name="app_despedida">Despedida</string>
 </resources>

@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name_aplicacion">All in One</string>
+    <string name="app_titulo_General">All in One</string>
+
+    <!--HINT-->
+    <string name="app_number1">First value</string>
+    <string name="app_number2">Second value</string>
+    <string name="app_insert_text">Insert text</string>
+    <string name="app_name">Name</string>
+    <string name="app_other_informations">Others</string>
+
+    <!--Operaciones-->
+    <string name="app_title_Operaciones">Operations</string>
+    <string name="app_sumar">Add</string>
+    <string name="app_restar">Subtract</string>
+    <string name="app_division">Division</string>
+    <string name="app_resultado">Result</string>
+    <string name="app_msg_button">Calculate</string>
+    <string name="app_add">Add</string>
+    <string name="app_guardar">Save</string>
+
+    <!--Spinner-->
+    <string name="app_spinner">Spinner</string>
+
+    <!--CHECKBOX-->
+    <string name="app_title_ChecBox">Checkbox</string>
+
+    <!--RADIO BUTTON-->
+    <string name="app_RadioButtonTitlle">Radio Button</string>
+
+    <!--Layouts-->
+    <string name="app_Layout">Layouts</string>
+    <string name="app_relative_layout">Relative Layout</string>
+    <string name="app_grip_layout">Grid Layout</string>
+
+    <!--List Views-->
+    <string name="app_title_ListViewTitle">ListView</string>
+
+    <!--Recycle Layout-->
+    <string name="app_recycle">Recycler View</string>
+    <string name="app_home">Home</string>
+    <string name="app_clean_list">Clean List</string>
+    <string name="app_ImageButton">Image Button</string>
+    <string name="app_Put_bundle">Put Bundle</string>
+    <string name="app_Web_View">Web View</string>
+    <string name="app_revelar">Reveal data</string>
+    <string name="app_cerrar">Close</string>
+    <string name="app_buscar">Search</string>
+
+    <!--CARD VIEWS-->
+    <string name="app_Large_Text">Large Text</string>
+    <string name="app_name_pets">PetName</string>
+    <string name="app_edad">Age</string>
+    <string name="app_color">Color</string>
+    <string name="app_genero">Gender</string>
+    <string name="app_descripcion">Description</string>
+    <string name="app_raza">Breed</string>
+    <string name="app_identificacion">ID number</string>
+
+    <!--Share preferences-->
+    <string name="app_share_preferences">Share Preferences</string>
+    <string name="app_contactos">Contacts</string>
+
+    <!--Manejo de archivos-->
+    <string name="app_manejo_archivo">File Management</string>
+
+    <!--SD-->
+    <string name="app_tarjeta_SD">SD Card</string>
+
+    <!--Base de datos SQL LITE-->
+    <string name="app_baseDatos">SQLite</string>
+    <string name="app_crud_SQlite_Crear">Register Product</string>
+    <string name="app_crud_SQlite_Actualizar">Update Product</string>
+    <string name="app_crud_SQlite_Eliminar">Delete Product</string>
+    <string name="app_crud_SQlite_Buscar">Search Product</string>
+
+    <string name="app_SQlite_codigo">Register Code</string>
+    <string name="app_cantidad">Quantity</string>
+    <string name="app_precio">Product Price</string>
+
+    <!--Frame Layout-->
+    <string name="app_aparecer">Appear</string>
+    <string name="app_frame_layout">Frame Layout</string>
+
+    <!--Scroll View-->
+    <string name="app_scrollView">Scroll View</string>
+
+    <!--Sound Pool y Media Player-->
+    <string name="app_media_player">Media Player</string>
+    <string name="app_sound_pool">Sound Pool</string>
+    <string name="app_reproductormusica">Music Player</string>
+
+    <!--Grabadora-->
+    <string name="app_grabacion">Media Recorder</string>
+
+    <!--Multilenguaje-->
+    <string name="app_titulo_multilenguaje">Multilanguage</string>
+    <string name="app_saludos">Greetings</string>
+    <string name="app_despedida">Farewell</string>
+
+</resources>

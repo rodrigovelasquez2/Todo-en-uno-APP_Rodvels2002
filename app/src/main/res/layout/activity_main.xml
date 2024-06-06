@@ -275,5 +275,19 @@
                 android:text="@string/app_grabacion"
                 android:textColor="@color/white"/>
         </TableRow>
+
+        <!--Septima fila fila-->
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnMultilenguaje"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/naranja"
+                android:onClick="sendToMultilenguaje"
+                android:text="@string/app_sound_pool"
+                android:textColor="@color/black"/>
+
+        </TableRow>
     </TableLayout>
 </RelativeLayout>
