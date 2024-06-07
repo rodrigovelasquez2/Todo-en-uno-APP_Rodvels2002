@@ -98,4 +98,10 @@
     <string name="app_saludos">Greetings</string>
     <string name="app_despedida">Farewell</string>
 
+    <!--Menu OverFlow-->
+    <string name="app_actionButton">Action Buttons</string>
+    <string name="app_opcion1">Option 1</string>
+    <string name="app_opcion2">Option 2</string>
+    <string name="app_opcion3">Option 3</string>
+
 </resources>

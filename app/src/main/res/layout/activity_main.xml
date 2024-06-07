@@ -285,9 +285,17 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/naranja"
                 android:onClick="sendToMultilenguaje"
-                android:text="@string/app_sound_pool"
+                android:text="@string/app_titulo_multilenguaje"
                 android:textColor="@color/black"/>
 
+            <Button
+                android:id="@+id/btnActionBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/turquesa"
+                android:onClick="sendToActionBar"
+                android:text="@string/app_actionButton"
+                android:textColor="@color/black"/>
         </TableRow>
     </TableLayout>
 </RelativeLayout>

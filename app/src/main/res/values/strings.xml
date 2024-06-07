@@ -109,4 +109,12 @@
     <string name="app_titulo_multilenguaje">Multilenguaje</string>
     <string name="app_saludos">Saludos</string>
     <string name="app_despedida">Despedida</string>
+
+
+    <!--Menu OverFlow-->
+    <string name="app_actionButton">Action Buttons</string>
+    <string name="app_opcion1">Opcion 1</string>
+    <string name="app_opcion2">Opcion 2</string>
+    <string name="app_opcion3">Opcion 3</string>
+
 </resources>
