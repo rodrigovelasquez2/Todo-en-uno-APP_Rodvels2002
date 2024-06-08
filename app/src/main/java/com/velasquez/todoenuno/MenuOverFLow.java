@@ -27,7 +27,7 @@ public class MenuOverFLow extends AppCompatActivity {
         });
     }//Fin onCreate
 
-    //Metodo para que funcione el action bar
+    //Metodo para que muestre el menu de opciones en el tolbar
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.overflow_menu, menu);
         return true;
@@ -36,12 +36,13 @@ public class MenuOverFLow extends AppCompatActivity {
     //Metodo para asignar las funciones al boton de cada item del menu:
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId(); // Recupera el id que se esta presionando. En este caso, el id del boton.
-        if (id == R.id.item1) {
-            Toast.makeText(this, "Opcion 1", Toast.LENGTH_SHORT).show();
-        } else if (id == R.id.item2) {
-            Toast.makeText(this, "Opcion 2", Toast.LENGTH_SHORT).show();
-        } else if (id == R.id.item3) {
-            Toast.makeText(this, "Opcion 3", Toast.LENGTH_SHORT).show();
+
+        if (id == R.id.item1_agregar) {
+            Toast.makeText(this, "Opcion 1, soy un action button", Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.item2_delete) {
+            Toast.makeText(this, "Opcion 2, soy un action button", Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.item3_actionBar) {
+            Toast.makeText(this, "Opcion 3, soy un actionBar", Toast.LENGTH_SHORT).show();
         }
         return super.onOptionsItemSelected(item);
     }//Fin onOptionsItemSelected
