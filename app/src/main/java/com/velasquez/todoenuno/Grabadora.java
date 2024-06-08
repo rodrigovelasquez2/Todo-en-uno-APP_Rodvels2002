@@ -44,6 +44,8 @@ public class Grabadora extends AppCompatActivity {
         if (!checkPermissions()) {
             requestPermissions();
         }
+
+
     }
 
     /**
