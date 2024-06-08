@@ -37,7 +37,7 @@
     <ImageView
         android:id="@+id/imageView_camera"
         android:layout_width="300dp"
-        android:onClick="capturarPhoto"
+        android:onClick="tomarFoto"
         android:layout_height="300dp"
         android:layout_marginTop="90dp"
         android:background="@color/transparent"
