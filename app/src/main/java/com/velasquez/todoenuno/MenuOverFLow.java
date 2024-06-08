@@ -35,16 +35,19 @@ public class MenuOverFLow extends AppCompatActivity {
 
     //Metodo para asignar las funciones al boton de cada item del menu:
     public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId(); // Recupera el id que se esta presionando. En este caso, el id del boton.
-
-        if (id == R.id.item1_agregar) {
-            Toast.makeText(this, "Opcion 1, soy un action button", Toast.LENGTH_SHORT).show();
-        } else if (id == R.id.item2_delete) {
-            Toast.makeText(this, "Opcion 2, soy un action button", Toast.LENGTH_SHORT).show();
-        } else if (id == R.id.item3_actionBar) {
-            Toast.makeText(this, "Opcion 3, soy un actionBar", Toast.LENGTH_SHORT).show();
+        switch (item.getItemId()) {
+            case R.id.item1_agregar:
+                Toast.makeText(this, "Opcion 1, soy un action button", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.item2_delete:
+                Toast.makeText(this, "Opcion 2, soy un action button", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.item3_actionBar:
+                Toast.makeText(this, "Opcion 3, soy un actionBar", Toast.LENGTH_SHORT).show();
+                break;
         }
         return super.onOptionsItemSelected(item);
     }//Fin onOptionsItemSelected
+
 
 }//Fin MenuOverFLow
