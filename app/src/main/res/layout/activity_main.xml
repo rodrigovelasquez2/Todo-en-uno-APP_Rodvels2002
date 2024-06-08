@@ -241,6 +241,8 @@
                 android:textColor="@color/black"
                 android:textStyle="bold"/>
 
+
+
         </TableRow>
 
 
@@ -296,6 +298,15 @@
                 android:onClick="sendToActionBar"
                 android:text="@string/app_actionButton"
                 android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/btnFotografia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:onClick="sendToFotografia"
+                android:text="@string/app_fotografia"
+                android:textColor="@color/white"/>
         </TableRow>
     </TableLayout>
 </RelativeLayout>

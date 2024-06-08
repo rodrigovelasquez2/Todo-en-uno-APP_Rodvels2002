@@ -19,6 +19,9 @@
         android:theme="@style/Theme.TodoEnUno"
         tools:targetApi="31">
         <activity
+            android:name=".Fotografia"
+            android:exported="false" />
+        <activity
             android:name=".MenuOverFLow"
             android:exported="false" />
         <activity

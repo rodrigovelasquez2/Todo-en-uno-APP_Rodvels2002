@@ -104,4 +104,6 @@
     <string name="app_opcion2">Option 2</string>
     <string name="app_opcion3">Option 3</string>
 
+    <!--Photo-->
+    <string name="app_fotografia">Photo</string>
 </resources>

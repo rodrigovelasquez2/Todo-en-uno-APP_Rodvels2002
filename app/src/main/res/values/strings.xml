@@ -117,4 +117,7 @@
     <string name="app_opcion2">Opcion 2</string>
     <string name="app_opcion3">Opcion 3</string>
 
+    <!--Fotografia-->
+    <string name="app_fotografia">Fotografia</string>
+
 </resources>

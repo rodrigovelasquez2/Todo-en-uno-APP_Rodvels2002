@@ -5,11 +5,14 @@
     <item
         android:id="@+id/item1_agregar"
         android:icon="@drawable/icon_boton_agregar"
+        android:iconTint="@color/white"
         android:title="@string/app_opcion1"
         app:showAsAction="always" />
     <item
         android:id="@+id/item2_delete"
         android:icon="@drawable/icon_boton_delete"
+        android:iconTint="@color/white"
+
         android:title="@string/app_opcion2"
         app:showAsAction="always" />
     <item
