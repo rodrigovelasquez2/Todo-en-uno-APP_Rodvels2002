@@ -106,4 +106,7 @@
 
     <!--Photo-->
     <string name="app_fotografia">Photo</string>
+
+    <!--Grabacion de video-->
+    <string name="app_grabacion_video">Grabacion video</string>
 </resources>
