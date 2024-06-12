@@ -113,7 +113,7 @@
     <!--Diseño responsibo-->
     <string name="app_responsive">Responsive</string>
 
-    <!--Rodvels-->
+    <!--Responsive-->
     <string name="app_rodvels">Rodvels</string>
-
+    <string name="app_button">Button</string>
 </resources>

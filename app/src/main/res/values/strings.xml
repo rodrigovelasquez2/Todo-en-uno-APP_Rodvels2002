@@ -128,6 +128,7 @@
 
     <!--Rodvels-->
     <string name="app_rodvels">Rodvels</string>
+    <string name="app_button">Button</string>
 
 
 </resources>

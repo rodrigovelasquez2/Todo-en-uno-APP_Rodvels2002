@@ -327,7 +327,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/naranja"
                 android:onClick="sendToResponsive"
-                android:text="@string/app_grabacion_video"
+                android:text="@string/app_responsive"
                 android:textColor="@color/white"/>
 
         </TableRow>

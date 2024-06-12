@@ -9,11 +9,30 @@
 
     <ImageView
         android:id="@+id/rv"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_centerInParent="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
         android:background="@drawable/icono_rodvels"
         android:scaleType="centerCrop" />
 
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rv"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/app_number1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="36dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/app_button" />
 
 </RelativeLayout>
