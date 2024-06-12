@@ -123,4 +123,11 @@
     <!--Grabacion de video-->
     <string name="app_grabacion_video">Record video</string>
 
+    <!--Diseño responsibo-->
+    <string name="app_responsive">Responsive</string>
+
+    <!--Rodvels-->
+    <string name="app_rodvels">Rodvels</string>
+
+
 </resources>

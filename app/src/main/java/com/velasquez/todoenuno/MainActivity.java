@@ -169,4 +169,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void sendToResponsive(View view){
+        Intent intent = new Intent(MainActivity.this, Grabacion_video.class);
+        startActivity(intent);
+    }//Fin sendToResponsive
+
 }//Fin MainActivity

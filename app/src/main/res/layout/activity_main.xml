@@ -321,6 +321,15 @@
                 android:text="@string/app_grabacion_video"
                 android:textColor="@color/white"/>
 
+            <Button
+                android:id="@+id/btnResponsive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/naranja"
+                android:onClick="sendToResponsive"
+                android:text="@string/app_grabacion_video"
+                android:textColor="@color/white"/>
+
         </TableRow>
 
     </TableLayout>
